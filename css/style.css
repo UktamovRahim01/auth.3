@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth__login {
+  margin-top: 70px;
+  padding-left: 60px;
+  padding-top: 70px;
+  width: 1100px;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 8px solid blue;
+  border-radius: 18px;
+  position: relative;
+}
+.auth__login__title h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: blue;
+}
+.auth__login__title h2 {
+  font-size: 38px;
+  font-weight: 900;
+}
+.auth__login .imgbox1 {
+  width: 370px;
+  height: 370px;
+  position: absolute;
+  top: 40px;
+  right: -70px;
+}
+.auth__login .imgbox2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 160px;
+  right: -35px;
+  opacity: 0.5;
+  z-index: -5;
+}
+.auth__login .regist {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+.auth__login .regist__input {
+  height: 35px;
+  border-radius: 8px;
+  border: 2px solid gray;
+  color: black;
+}
+.auth__login .regist__select {
+  border-color: gray;
+  border-radius: 8px;
+  height: 35px;
+  border: 2px solid gray;
+  color: black;
+}
+.auth__login .inform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.auth__login .inform p {
+  color: #5e4646;
+}
+.auth__login .inform span {
+  color: blue;
+  padding-left: 8px;
+}
+.auth__login__button {
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 50px;
+  width: 88%;
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+  border: 0;
+  cursor: pointer;
+}

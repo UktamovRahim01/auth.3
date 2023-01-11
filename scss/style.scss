@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__login {
+        margin-top: 70px;
+        padding-left: 60px;
+        padding-top: 70px;
+        width: 1100px;
+        height: 650px;
+        background-color: rgba($color: #000000, $alpha: 0.0);
+        border: 8px solid blue;
+        border-radius: 18px;
+        position: relative;
+
+        &__title {
+            h1 {
+                font-size: 18px;
+                font-weight: 700;
+                color: blue;
+            }
+
+            h2 {
+                font-size: 38px;
+                font-weight: 900;
+            }
+        }
+
+
+        .imgbox1 {
+            width: 370px;
+            height: 370px;
+            position: absolute;
+            top: 40px;
+            right: -70px;
+        }
+
+        .imgbox2 {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 160px;
+            right: -35px;
+            opacity: 0.5;
+            z-index: -5;
+        }
+
+        .regist {
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 400px;
+
+            &__input {
+                height: 35px;
+                border-radius: 8px;
+                border: 2px solid gray;
+                color: black;
+            }
+
+            &__select {
+                border-color: gray;
+                border-radius: 8px;
+                height: 35px;
+                border: 2px solid gray;
+                color: black;
+
+            }
+        }
+
+        .inform {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            p {
+                color: #5e4646;
+            }
+
+            span {
+                color: blue;
+                padding-left: 8px;
+            }
+        }
+
+        &__button {
+            margin: 0 auto;
+            margin-top: 40px;
+            height: 50px;
+            width: 88%;
+            color: white;
+            background-color: blue;
+            border-radius: 15px;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+}
